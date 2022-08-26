@@ -6,13 +6,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
-  Home,
-  About,
-  Contact,
-  Blog,
-  Posts,
-  Post,
-  Meeting,
+  Home, 
+  About, 
+  Contact, 
+  Blog, 
+  Posts, 
+  Post, 
+  Meeting, 
+  Exemplo,
 } from "./components";
 
 ReactDOM.render(
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/meeting" element={<Meeting />} />
+      <Route path="/exemplo" element={<Exemplo />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />

@@ -37,6 +37,11 @@ function Navigation() {
                   Meeting
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/exemplo">
+                  Exemplo
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

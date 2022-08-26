@@ -1,6 +1,6 @@
 import React from "react";
 
-function Meeting() {
+const Meeting = () => {
   return (
     <div className="meeting">
       <div class="container">
